@@ -1,4 +1,4 @@
-# Linux driver for BCM2835(6/7) HWRNG written in Rust
+# Rust BCM2835(6/7) HWRNG Linux driver
 
 The driver was implemented as a part of my Integrated Master's Thesis in Computer Engineering.
 
@@ -6,7 +6,7 @@ The aim was to perform a basic evaluation of the advantages and drawbacks of usi
 
 ## Prerequisites
 
-* Linux tree from [Rust-for-Linux team](www.github.com/rust-for-linux/linux)<sup>[1]</sup> along with its dependencies.
+* Linux tree from [Rust-for-Linux team](https://github.com/rust-for-linux/linux)<sup>[1]</sup> along with its dependencies.
 
 * If you don't intend to use the configuration file<sup>[2]</sup> provided inside `modified_linux_files` you must make sure that the following options are enabled in your custom `.config`:
     * `CONFIG_RUST`
