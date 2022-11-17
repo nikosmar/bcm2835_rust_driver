@@ -1,6 +1,6 @@
 # Rust BCM2835(6/7) HWRNG Linux driver
 
-The driver was implemented as a part of my Integrated Master's Thesis in Computer Engineering.
+The driver was implemented as a part of my Diploma Thesis in Computer Engineering.
 
 The aim was to perform a basic evaluation of the advantages and drawbacks of using Rust in Linux kernel modules.
 
