@@ -8,6 +8,8 @@ The aim was to perform a basic evaluation of the advantages and drawbacks of usi
 
 * Linux tree from [Rust-for-Linux team](https://github.com/rust-for-linux/linux)<sup>[1]</sup> along with its dependencies.
 
+* This Pull Request: [rust: platform: add ioremap_resource and get_resource methods](https://github.com/Rust-for-Linux/linux/pull/682)
+
 * If you don't intend to use the configuration file<sup>[2]</sup> provided inside `modified_linux_files` you must make sure that the following options are enabled in your custom `.config`:
     * `CONFIG_RUST`
     * `CONFIG_COMMON_CLK`
