@@ -87,7 +87,7 @@ pub unsafe trait RawDevice {
 
         let res = from_kernel_err_ptr(unsafe { bindings::reset_control_get_optional_exclusive(self.raw_device(), id_ptr) })?;
 
-        // Since reset_control_get_optional_exlusive can return NULL
+        // Since reset_control_get_optional_exclusive can return NULL
         // res must be checked before being used in Reset::new()
         if res.is_null() {
             return Ok(None);
